@@ -77,4 +77,4 @@ def run():
 
 order = run()
 
-# Run bakery_2 with `python3 -i bakery_2.py`
+# Run bakery_2 with `python3 -i lib/challenge.py`

@@ -50,3 +50,4 @@ class Baker():
         return f"{self.cakes_sampled[choice].flavour} was your favourite!"
 
 baker = Baker()
+# Run bakery_2 with `python3 -i lib/exercise.py`
