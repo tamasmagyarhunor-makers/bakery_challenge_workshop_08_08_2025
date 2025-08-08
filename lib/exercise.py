@@ -1,3 +1,15 @@
+class Cake():
+    def __init__(self):
+        self.flavour = ""
+        self.size = 100
+    
+    def set_flavour(self, flavour):
+        self.flavour = flavour
+    
+    def take_slice(self, slice):
+        self.size -= slice
+        print(f"You have taken a {slice} percent sized slice. \n There is {self.size} percent cake remaining.")
+
 class Baker():
     def __init__(self):
         self.stomach_space_remaining = 100
@@ -36,3 +48,5 @@ class Baker():
         print("Pick the number as it appears in the list.")
         choice = int(input("Which cake?: \n")) - 1
         return f"{self.cakes_sampled[choice].flavour} was your favourite!"
+
+baker = Baker()
